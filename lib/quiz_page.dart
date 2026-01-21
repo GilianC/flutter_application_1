@@ -160,7 +160,7 @@ class _QuizPageState extends State<QuizPage> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     QuestionText(questionText: question.question),
-                    Timer(const Duration(seconds: 5), );
+
                     const SizedBox(height: 20),
                     // Question 3 (index 2) utilise un DropdownMenu
                     if (currentQuestion == 2) ...[
