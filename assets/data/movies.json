@@ -1,0 +1,122 @@
+[
+  {
+    "title": "Inception",
+    "realisateur": "Christopher Nolan",
+    "year": 2010,
+    "poster": "https://image.tmdb.org/t/p/w500/aej3LRUga5rhgkmRP6XMFw3ejbl.jpg",
+    "description": "Un voleur qui s'infiltre dans les rêves des gens pour voler leurs secrets se voit confier une mission impossible : implanter une idée dans l'esprit d'un PDG.",
+    "trailer": "https://www.youtube.com/watch?v=YoHD9XEInc0"
+  },
+  {
+    "title": "Interstellar",
+    "realisateur": "Christopher Nolan",
+    "year": 2014,
+    "poster": "https://image.tmdb.org/t/p/w500/1pnigkWWy8W032o9TKDneBa3eVK.jpg",
+    "description": "Une équipe d'explorateurs voyage à travers un trou de ver dans l'espace pour assurer la survie de l'humanité face à la fin de la Terre.",
+    "trailer": "https://www.youtube.com/watch?v=zSWdZVtXT7E"
+  },
+  {
+    "title": "The Dark Knight",
+    "realisateur": "Christopher Nolan",
+    "year": 2008,
+    "poster": "https://image.tmdb.org/t/p/w500/pyNXnq8QBWoK3b37RS6C3axwUOy.jpg",
+    "description": "Batman affronte le Joker, un criminel chaotique qui plonge Gotham dans l'anarchie et force le chevalier noir à affronter ses propres limites morales.",
+    "trailer": "https://www.youtube.com/watch?v=EXeTwQWrcwY"
+  },
+  {
+    "title": "Pulp Fiction",
+    "realisateur": "Quentin Tarantino",
+    "year": 1994,
+    "poster": "https://image.tmdb.org/t/p/w500/dRZpdpKLgN2lk0DX6vlZOcBxLXT.jpg",
+    "description": "Les vies de deux tueurs à gages, d'un boxeur, d'un gangster et de sa femme s'entrelacent dans quatre histoires de violence et de rédemption.",
+    "trailer": "https://www.youtube.com/watch?v=s7EdQ4FqbhY"
+  },
+  {
+    "title": "The Shawshank Redemption",
+    "realisateur": "Frank Darabont",
+    "year": 1994,
+    "poster": "https://image.tmdb.org/t/p/w500/5KCVkau1HEl7ZzfPsKAPM0sMiKc.jpg",
+    "description": "Deux hommes emprisonnés se lient d'amitié au fil des années, trouvant réconfort et rédemption à travers des actes de décence commune.",
+    "trailer": "https://www.youtube.com/watch?v=6hB3S9bIaco"
+  },
+  {
+    "title": "Forrest Gump",
+    "realisateur": "Robert Zemeckis",
+    "year": 1994,
+    "poster": "https://image.tmdb.org/t/p/w500/arw2vcBveWOVZr6pxd9XTd1TdQa.jpg",
+    "description": "Les décennies présidentielles à travers les yeux de Forrest Gump, un homme d'Alabama au QI faible mais au cœur en or.",
+    "trailer": "https://www.youtube.com/watch?v=bLvqoHBptjg"
+  },
+  {
+    "title": "The Matrix",
+    "realisateur": "Lana et Lilly Wachowski",
+    "year": 1999,
+    "poster": "https://image.tmdb.org/t/p/w500/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg",
+    "description": "Un hacker découvre que la réalité qu'il connaît est une simulation créée par des machines et rejoint une rébellion pour libérer l'humanité.",
+    "trailer": "https://www.youtube.com/watch?v=vKQi3bBA1y8"
+  },
+  {
+    "title": "Fight Club",
+    "realisateur": "David Fincher",
+    "year": 1999,
+    "poster": "https://image.tmdb.org/t/p/w500/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg",
+    "description": "Un employé de bureau insomniac et un fabricant de savon forment un club de combat clandestin qui évolue en quelque chose de bien plus grand.",
+    "trailer": "https://www.youtube.com/watch?v=qtRKdVHc-cE"
+  },
+  {
+    "title": "Gladiator",
+    "realisateur": "Ridley Scott",
+    "year": 2000,
+    "poster": "https://image.tmdb.org/t/p/w500/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg",
+    "description": "Un général romain trahi devient gladiateur et cherche à se venger de l'empereur corrompu qui a assassiné sa famille et volé son trône.",
+    "trailer": "https://www.youtube.com/watch?v=owK1qxDselE"
+  },
+  {
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "realisateur": "Peter Jackson",
+    "year": 2001,
+    "poster": "https://image.tmdb.org/t/p/w500/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
+    "description": "Un hobbit humble se retrouve en possession d'un anneau maléfique et doit entreprendre un voyage périlleux pour le détruire.",
+    "trailer": "https://www.youtube.com/watch?v=V75dMMIW2B4"
+  },
+  {
+    "title": "Parasite",
+    "realisateur": "Bong Joon-ho",
+    "year": 2019,
+    "poster": "https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+    "description": "Toute la famille de Ki-taek est au chômage. Un jour, leur fils réussit à se faire recommander pour donner des cours d'anglais chez les Park, une famille richissime.",
+    "trailer": "https://www.youtube.com/watch?v=5xH0HfJHsaY"
+  },
+  {
+    "title": "The Godfather",
+    "realisateur": "Francis Ford Coppola",
+    "year": 1972,
+    "poster": "https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
+    "description": "Le patriarche vieillissant d'une dynastie du crime organisé transfère le contrôle de son empire clandestin à son fils réticent.",
+    "trailer": "https://www.youtube.com/watch?v=sY1S34973zA"
+  },
+  {
+    "title": "Schindler's List",
+    "realisateur": "Steven Spielberg",
+    "year": 1993,
+    "poster": "https://image.tmdb.org/t/p/w500/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg",
+    "description": "En Pologne pendant la Seconde Guerre mondiale, Oskar Schindler s'inquiète progressivement pour sa main-d'œuvre juive après avoir été témoin de leur persécution.",
+    "trailer": "https://www.youtube.com/watch?v=gG22XNhtnoY"
+  },
+  {
+    "title": "The Silence of the Lambs",
+    "realisateur": "Jonathan Demme",
+    "year": 1991,
+    "poster": "https://image.tmdb.org/t/p/w500/rplLJ2hPcOQmkFhTqUte0MkEaO2.jpg",
+    "description": "Une jeune recrue du FBI cherche l'aide d'un cannibale emprisonné pour attraper un autre tueur en série qui écorche ses victimes.",
+    "trailer": "https://www.youtube.com/watch?v=W6Mm8Sbe__o"
+  },
+  {
+    "title": "Goodfellas",
+    "realisateur": "Martin Scorsese",
+    "year": 1990,
+    "poster": "https://image.tmdb.org/t/p/w500/aKuFiU82s5ISJpGZp7YkIr3kCUd.jpg",
+    "description": "L'histoire d'Henry Hill et de sa vie dans la mafia, couvrant son ascension de petit délinquant à gangster dans le syndicat du crime de la famille Lucchese.",
+    "trailer": "https://www.youtube.com/watch?v=qo5jJpHtI1Y"
+  }
+]
