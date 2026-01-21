@@ -8,7 +8,8 @@ Chaque branche correspond à un TP spécifique.
 ## 📱 TP1 - Portfolio Personnel
 **Branche:** `tp1`
 
-<!-- Zone pour screenshot TP1 -->
+<img width="426" height="927" alt="image" src="https://github.com/user-attachments/assets/f5d927fd-839c-45d9-8701-01611e7cd1b5" />
+
 ![Screenshot TP1](./screenshots/tp1.png)
 
 ### Description
@@ -38,7 +39,8 @@ Application de portfolio personnel avec :
 ## 🎯 TP2 - Application Quiz
 **Branche:** `tp2`
 
-<!-- Zone pour screenshot TP2 -->
+<img width="423" height="962" alt="image" src="https://github.com/user-attachments/assets/3cbe75be-0cce-4302-a9db-fea5f5d28011" />
+
 ![Screenshot TP2](./screenshots/tp2.png)
 
 ### Description
