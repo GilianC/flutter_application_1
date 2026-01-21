@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Flutter (Development)",
+      "request": "launch",
+      "type": "dart",
+      "args": [
+        "--dart-define=WATCHMODE_API_KEY=ta_clé_api_ici"
+      ]
+    }
+  ]
+}
