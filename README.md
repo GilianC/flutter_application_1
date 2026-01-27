@@ -79,7 +79,29 @@ Application de gestion de films inspirée de Netflix (MMI Movies).
 - Service personnalisé pour la gestion des films
 
 ---
+## 🎬 TP4 -
+**Branche:** `tp3`
 
+<img width="425" height="938" alt="image" src="https://github.com/user-attachments/assets/0ce6ddfa-37de-42b8-aada-0b24281cd7ba" />
+<img width="430" height="931" alt="image" src="https://github.com/user-attachments/assets/3037e7d9-87fa-44f9-a57b-7a02c12a9a51" />
+
+
+![Screenshot TP3](./screenshots/tp3.png)
+
+### Description
+Application de gestion de films inspirée de Netflix (MMI Movies).
+
+### Fonctionnalités
+- **Liste de films** avec affichage personnalisé
+- **Système de favoris** pour sauvegarder vos films préférés
+- **Service de gestion de films** (MovieService)
+- **Interface sombre** style Netflix
+  - Couleur principale : Rouge Netflix (#E50914)
+  - Fond noir (#141414)
+
+### Technologies utilisées
+- Flutter
+- Material Design 3
 ## 👤 Auteur
 **Gilian CANNIER** (Gilian)  
 Développeur - Limoges, France
