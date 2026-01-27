@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:url_launcher/url_launcher.dart';
 import '../models/movie.dart';
 import '../services/movie_service.dart';
+import 'trailer_player_page.dart';
 
 class MovieDetailPage extends StatefulWidget {
   final MovieService movieService;
@@ -49,21 +49,26 @@ class _MovieDetailPageState extends State<MovieDetailPage> {
   }
 
   Future<void> _openTrailer() async {
-    if (movie?.trailer == null) return;
-
-    final uri = Uri.parse(movie!.trailer!);
-
-    if (await canLaunchUrl(uri)) {
-      await launchUrl(uri, mode: LaunchMode.externalApplication);
-    } else {
-      if (!mounted) return;
+    if (movie?.trailer == null || movie!.trailer!.isEmpty) {
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(
-          content: Text('Impossible d\'ouvrir la bande-annonce'),
-          backgroundColor: Colors.red,
+          content: Text('Aucune bande-annonce disponible'),
+          backgroundColor: Color(0xFFE50914),
         ),
       );
+      return;
     }
+
+    // Ouvrir le lecteur YouTube intégré
+    Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (context) => TrailerPlayerPage(
+          trailerUrl: movie!.trailer!,
+          movieTitle: movie!.title,
+        ),
+      ),
+    );
   }
 
   @override
@@ -179,18 +184,24 @@ class _MovieDetailPageState extends State<MovieDetailPage> {
                               style: const TextStyle(fontSize: 16, height: 1.5),
                             ),
                             // Bouton bande-annonce si disponible
-                            if (movie!.trailer != null) ...[
+                            if (movie!.trailer != null && movie!.trailer!.isNotEmpty) ...[
                               const SizedBox(height: 20),
-                              ElevatedButton.icon(
-                                onPressed: _openTrailer,
-                                icon: const Icon(Icons.play_circle_outline),
-                                label: const Text('Voir la bande-annonce'),
-                                style: ElevatedButton.styleFrom(
-                                  backgroundColor: Colors.red,
-                                  foregroundColor: Colors.white,
-                                  padding: const EdgeInsets.symmetric(
-                                    horizontal: 24,
-                                    vertical: 12,
+                              SizedBox(
+                                width: double.infinity,
+                                child: ElevatedButton.icon(
+                                  onPressed: _openTrailer,
+                                  icon: const Icon(Icons.play_arrow, size: 28),
+                                  label: const Text(
+                                    'Regarder la bande-annonce',
+                                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                                  ),
+                                  style: ElevatedButton.styleFrom(
+                                    backgroundColor: const Color(0xFFE50914),
+                                    foregroundColor: Colors.white,
+                                    padding: const EdgeInsets.symmetric(vertical: 14),
+                                    shape: RoundedRectangleBorder(
+                                      borderRadius: BorderRadius.circular(4),
+                                    ),
                                   ),
                                 ),
                               ),

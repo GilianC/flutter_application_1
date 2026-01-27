@@ -179,25 +179,29 @@ class MovieListCard extends StatelessWidget {
 
   // Génère une couleur basée sur la première lettre du titre
   Color _getColorFromLetter(String title) {
-    if (title.isEmpty) return Colors.grey;
+    if (title.isEmpty) return const Color(0xFF2A2A2A);
 
     final letter = title[0].toUpperCase();
     final colorIndex = letter.codeUnitAt(0) % 10;
 
     const colors = [
-      Colors.red,
-      Colors.pink,
-      Colors.purple,
-      Colors.deepPurple,
-      Colors.indigo,
-      Colors.blue,
-      Colors.teal,
-      Colors.green,
-      Colors.orange,
-      Colors.brown,
+      Color(0xFFE50914), // Netflix rouge
+      Color(0xFFB20710), // Rouge foncé
+      Color(0xFF831010), // Bordeaux
+      Color(0xFF564d4d), // Gris sombre
+      Color(0xFF221f1f), // Presque noir
+      Color(0xFFf5f5f1), // Blanc cassé
+      Color(0xFF831010), // Bordeaux
+      Color(0xFFE50914), // Netflix rouge
+      Color(0xFFB20710), // Rouge foncé
+      Color(0xFF564d4d), // Gris sombre
     ];
 
-    return colors[colorIndex];
+    // Sécurité : s'assurer que l'index est valide
+    if (colorIndex >= 0 && colorIndex < colors.length) {
+      return colors[colorIndex];
+    }
+    return const Color(0xFFE50914); // Couleur par défaut Netflix rouge
   }
 
   @override

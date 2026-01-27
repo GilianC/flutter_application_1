@@ -15,6 +15,7 @@ dependencies:
   url_launcher: ^6.3.2
   video_player: ^2.9.2
   dio: ^5.9.0
+  youtube_player_flutter: ^9.0.3
 
 
 dev_dependencies:
